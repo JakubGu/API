@@ -1,7 +1,3 @@
-# Tytuł Projektu
-
-Krótki opis projektu
-
 ## Endpointy API
 
 ### POST /api/auth/login
