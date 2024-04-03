@@ -41,7 +41,7 @@
 
 ### Pobrać min. 1000 tagów..... / Pobrane może nastąpić na starcie.....
 
-- **Opis**: Po uruchomieniu aplikacji, tworzona jest baza danych z ostatniej migracji i jest zasiewana danymi z klasy Seed.
+- **Opis**: Po uruchomieniu aplikacji, tworzona jest baza danych z ostatniej migracji i jest zasiewana danymi z klasy `Seed`.
 
 ### Obliczyć procentowy udział tagów.....
 
