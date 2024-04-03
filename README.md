@@ -15,7 +15,7 @@
 - **Parametry**: Brak.
 - **Opis**: Zwraca nazwę dla aktualnie zalogowanego użytkownika.
 
-### GET /api/tags
+### GET /api/tag
 
 - **Parametry**: Obiekt `TagParamsDto` zawierający `PageNumber`, `PageSize`, `SortBy` i `OrderBy`. [FromQuery]
 - **Opis**: Zwraca listę tagów. Metoda najpierw tworzy nowy obiekt `TagsList.Command` z parametrami przekazanymi w `TagParamsDto`. Następnie wysyła ten obiekt do mediatora, który zwraca listę tagów.
