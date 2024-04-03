@@ -79,6 +79,6 @@ Krótki opis projektu
 
 - **Opis**: Plik `Dockerfile` obsługuje te wymagania.
 
-### Całość powinna się uruchamiać po wykonaniu
+### Całość powinna się uruchamiać po wykonaniu.....
 
 - **Opis**: Plik `docker-compose` obsługuje te wymagania.
