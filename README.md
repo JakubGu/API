@@ -8,7 +8,7 @@
 ### POST /api/auth/register
 
 - **Parametry**: Obiekt `RegisterDto` zawierający `Email`, `UserName` i `Password`. [FromBody]
-- **Opis**: Rejestruje nowego użytkownika. ustawia token autoryzacji w nagłówkach odpowiedzi. Przykładowe poprawne dane rejestracji = test@gmail.com, Abcd1, test.
+- **Opis**: Rejestruje nowego użytkownika. ustawia token autoryzacji w nagłówkach odpowiedzi. Przykładowe poprawne dane rejestracji = test@gmail.com, test, Abcd1.
 
 ### GET /api/account/currentuser
 
