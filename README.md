@@ -49,11 +49,11 @@
 
 ### Udostępnić tagi poprzez stronicowane API.....
 
-- **Opis**: Endpoint `/api/tags` oraz mediator `TagsList` obsługują te wymagania.
+- **Opis**: Endpoint `/api/tag` oraz mediator `TagsList` obsługują te wymagania.
 
 ### Udostępnić metodę API do wymuszenia ponownego.....
 
-- **Opis**: Endpoint `/api/tags/refresh` oraz mediatory `TagsAdd`, `TagsDelete` obsługują te wymagania.
+- **Opis**: Endpoint `/api/tag/refresh` oraz mediatory `TagsAdd`, `TagsDelete` obsługują te wymagania.
 
 ### Udostępnić definicję OpenAPI.....
 
