@@ -61,7 +61,7 @@
 
 ### Uwzględnić logowanie oraz obsługę błędów i konfigurację.....
 
-- **Opis**: Kontroler `Account`, który używa `Identity` oraz tokeny, obsługuje logowanie. Obsługa błędów jest dodana do każdego endpointa. Konfiguracja uruchomieniowa znajduje się w plikach `appsettings.Development.json` oraz `appsettings.json`.
+- **Opis**: Kontroler `Account` który używa `Identity` oraz tokeny obsługuje logowanie. Obsługa błędów jest dodana do każdego endpointa. Konfiguracja uruchomieniowa znajduje się w plikach `appsettings.Development.json` oraz `appsettings.json`.
 
 ### Przygotować kilka wybranych testów jednostkowych.....
 
