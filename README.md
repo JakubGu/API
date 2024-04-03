@@ -20,7 +20,7 @@
 - **Parametry**: Obiekt `TagParamsDto` zawierający `PageNumber`, `PageSize`, `SortBy` i `OrderBy`. [FromQuery]
 - **Opis**: Zwraca listę tagów. Metoda najpierw tworzy nowy obiekt `TagsList.Command` z parametrami przekazanymi w `TagParamsDto`. Następnie wysyła ten obiekt do mediatora, który zwraca listę tagów.
 
-### POST /api/tags/refresh
+### POST /api/tag/refresh
 
 - **Parametry**: Brak.
 - **Opis**: Odświeża listę tagów. Metoda najpierw wysyła do mediatora `TagsDelete.Command`, który usuwa wszystkie tagi, a następnie wysyła `TagsAdd.Command`, który dodaje tagi.
